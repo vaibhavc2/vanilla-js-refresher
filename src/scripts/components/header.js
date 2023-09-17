@@ -3,6 +3,7 @@ const setHeader = () => {
   header.id = "header";
 
   const img = document.createElement("img");
+  img.id = "h-img";
   img.src = "./src/assets/js.png";
   img.alt = "JS";
 

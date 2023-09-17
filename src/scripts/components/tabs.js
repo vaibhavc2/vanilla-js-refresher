@@ -29,6 +29,7 @@ const setButton = (_id, text, type = "button") => {
   button.id = _id;
   button.append(text);
   button.type = type;
+  button.classList.add("tab-btn");
 
   return button;
 };
