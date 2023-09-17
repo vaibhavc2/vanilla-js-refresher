@@ -19,12 +19,29 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-gray-900 text-gray-100">
+  <body id="body">
     <div id="root">
       <!-- Content rendered dynamically using Javascript -->
     </div>
 
-    <!-- JS Scripts -->
+    <!--  -->
+    <!-- If JS is Disabled! -->
+    <noscript>
+      <div class="container">
+        <h1>Enable Javascript to run this website!</h1>
+      </div>
+    </noscript>
+    <!-- If JS is Disabled! -->
+    <!--  -->
+
+    <!-- Starting script -->
     <script src="/src/scripts/index.js"></script>
+    <!-- Component Content scripts -->
+    <script src="/src/scripts/components/header.js"></script>
+    <script src="/src/scripts/components/tabs.js"></script>
+    <!-- Style script -->
+    <script src="/src/scripts/styles.js"></script>
+    <!-- Main script -->
+    <script src="/src/scripts/main.js"></script>
   </body>
 </html>
